@@ -495,7 +495,7 @@ body {
   
 }
 .color-1 {
-  color: var(--color-1);
+  color:  #465a3d;
 }
 .color-2 {
   color: white;
@@ -723,7 +723,7 @@ body {
   position: absolute;
   top: 150px;
   height: 2px;
-  background-color: var(--color-1);
+  background-color:  #465a3d;
   width: 100%;
   z-index: 2;
 }
@@ -741,7 +741,7 @@ body {
   left: 50%;
   top: 152px;
   transform: translateX(-50%);
-  background-color: var(--color-1);
+  background-color:  #465a3d;
   z-index: 2;
 }
 .event-point:first-child::after {
@@ -752,7 +752,7 @@ body {
   height: 10px;
   left: 0;
   top: 146px;
-  background-color: var(--color-1);
+  background-color:  #465a3d;
   z-index: 2;
   border-radius: 100rem;
 }
@@ -764,7 +764,7 @@ body {
   height: 10px;
   right: 0;
   top: 146px;
-  background-color: var(--color-1);
+  background-color:  #465a3d;
   z-index: 2;
   border-radius: 100rem;
 }
@@ -779,8 +779,10 @@ body {
   font-size: 28px;
 }
 .event-title {
+ 
   font-weight: 500;
-  font-size: 96px;
+  font-family: 'Dancing Script';
+  font-size: 40px;
 }
 .t16-event-2 .events-wrapper {
   grid-template-columns: repeat(3, minmax(350px, 1fr));
@@ -1001,7 +1003,7 @@ body {
   width: 100%;
   border: none;
   background-color: transparent;
-  border-bottom: 1px solid var(--color-1);
+  border-bottom: 1px solid  #465a3d;
   min-height: 50px;
   font-size: 1rem;
 }
@@ -1064,14 +1066,14 @@ input[type="radio"]:checked:before {
 .form-submit {
   padding: 24px 42px;
   font-size: 20px;
-  background-color: var(--color-1);
+  background-color:  #465a3d;
   color: #fff;
   border: none;
   border-radius: 5px;
   margin-inline: auto;
 }
 .t16-footer {
-  background-color: var(--color-1);
+  background-color:  #465a3d;
   padding: 2rem;
 }
 .t16-footer-content {
@@ -1108,7 +1110,7 @@ input[type="radio"]:checked:before {
     width: calc(100vw - 180px);
   }
   .name {
-    font-size: 160px;
+    font-size: 100px;
   }
   .t16-story {
     padding: 90px;
@@ -1175,7 +1177,7 @@ input[type="radio"]:checked:before {
     padding: 50px;
   }
   .event-title {
-    font-size: 75px;
+    font-size: 40px;
   }
   .event-point::before {
     height: 25px;
@@ -1250,7 +1252,7 @@ input[type="radio"]:checked:before {
     font-size: 24px;
   }
   .name {
-    font-size: 140px;
+    font-size: 94px;
     font-weight: 300;
   }
   .ampersand {
@@ -1282,7 +1284,7 @@ input[type="radio"]:checked:before {
   .events-wrapper::before {
     left: 50%;
     height: 1px;
-    background-color: var(--color-1);
+    background-color:  #465a3d;
     transform: rotateZ(90deg);
     width: 100%;
     z-index: 2;
@@ -1468,7 +1470,7 @@ input[type="radio"]:checked:before {
   .events-wrapper::before {
     left: 45%;
     height: 1px;
-    background-color: var(--color-1);
+    background-color:  #465a3d;
     transform: rotateZ(90deg);
     width: 100%;
     z-index: 2;
